@@ -27,7 +27,6 @@ div.contact{
     left: 30%;
     width: 45%;
     height: 78%;
-    border-style: dotted;
 }
 
 div.wedding_1{
@@ -37,7 +36,6 @@ div.wedding_1{
     left: 11%;
     width: 34%;
     height: 39%;
-    border-style: dotted;
 }
 
 div.wedding_2{
@@ -47,7 +45,6 @@ div.wedding_2{
     left: 70%;
     width: 24%;
     height: 20%;    
-    border-style: dotted;
 }
 
 div.considerations{
@@ -57,7 +54,6 @@ div.considerations{
     left: 76%;
     width: 23%;
     height: 17%;    
-    border-style: dotted;
 }
 
 div.transport{
@@ -67,7 +63,6 @@ div.transport{
     left: 55%;
     width: 40%;
     height: 19%;    
-    border-style: dotted;
 }
 
 .btn_plane {
