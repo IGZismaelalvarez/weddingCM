@@ -1,0 +1,92 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+
+  <title></title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="http://yui.yahooapis.com/3.5.1/build/cssreset/cssreset-min.css">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <div class="container-sm background">
+      <img class="background img-responsive" src="./images/invitacion.png"/>
+      <div class="container-sm contact">
+        <button type="button" class="btn_contact" data-bs-toggle="modal" data-bs-target="#contactModal">
+        </button>
+      </div>
+      <div class="container-sm wedding_1">
+        <button class="btn_clock" data-bs-toggle="modal" data-bs-target="#weddingModal"></button> 
+      </div>
+      <div class="container-sm wedding_2">
+        <button class="btn_cartel" data-bs-toggle="modal" data-bs-target="#weddingModal"></button> 
+      </div>
+      <div class="container-sm considerations">
+        <button class="btn_ramen" data-bs-toggle="modal" data-bs-target="#considerationsModal"></button> 
+      </div>
+      <div class="container-sm transport">
+        <button class="btn_plane" data-bs-toggle="modal" data-bs-target="#transportModal"></button> 
+      </div>
+  </div> 
+</body>
+
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="background img-responsive" src="./images/contact_info.jpg"/>
+      </div>
+    </div>
+  </div>
+</div> 
+
+
+<div class="modal fade" id="considerationsModal" tabindex="-1" aria-labelledby="considetarionsLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="background img-responsive" src="./images/considerations_info.jpg"/>
+      </div>
+    </div>
+  </div>
+</div> 
+
+<div class="modal fade" id="transportModal" tabindex="-1" aria-labelledby="transportLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="background img-responsive" src="./images/transport_info.jpg"/>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="weddingModal" tabindex="-1" aria-labelledby="weddingLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="background img-responsive" src="./images/wedding_info.jpg"/>
+      </div>
+    </div>
+  </div>
+</div>
