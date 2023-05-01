@@ -17,8 +17,10 @@ img.contact {
 
 div.background{
     z-index:0;
+    width: max-content;
     justify-content: center;
     position: relative;
+    border-style: dotted;
 }
 
 div.contact{
