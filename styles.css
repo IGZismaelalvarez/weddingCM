@@ -19,7 +19,6 @@ div.background{
     z-index:0;
     width: 100%;
     position: relative;
-    border-style: dotted;
 }
 
 div.contact{
