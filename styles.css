@@ -27,13 +27,13 @@ div.contact{
     bottom: 0%;
     left: 30%;
     width: 45%;
-    height: 78%;
+    height: 74%;
 }
 
 div.wedding_1{
     z-index:1;
     position: absolute;
-    bottom: 45%;
+    bottom: 43%;
     left: 11%;
     width: 34%;
     height: 39%;
@@ -42,8 +42,8 @@ div.wedding_1{
 div.wedding_2{
     z-index:1;
     position: absolute;
-    bottom: 35%;
-    left: 70%;
+    bottom: 31%;
+    left: 72%;
     width: 24%;
     height: 20%;    
 }
@@ -51,8 +51,8 @@ div.wedding_2{
 div.considerations{
     z-index:1;
     position: absolute;
-    bottom: 22%;
-    left: 76%;
+    bottom: 20%;
+    left: 78%;
     width: 23%;
     height: 17%;    
 }
@@ -60,9 +60,9 @@ div.considerations{
 div.transport{
     z-index:2;
     position: absolute;
-    bottom: 74%;
-    left: 55%;
-    width: 40%;
+    bottom: 67%;
+    left: 58%;
+    width: 45%;
     height: 19%;    
 }
 
@@ -91,8 +91,8 @@ div.maps_wedding{
     border: none;
     cursor: pointer;
     appearance: none;
-    width: 100%;
-    height: 100%;
+    width: 75%;
+    height: 80%;
     background-color: inherit;
   }
 
@@ -127,8 +127,8 @@ div.maps_wedding{
     border: none;
     cursor: pointer;
     appearance: none;
-    width: 100%;
-    height: 90%;
+    width: 90%;
+    height: 80%;
     background-color: inherit;
   }
 
@@ -139,8 +139,8 @@ div.maps_wedding{
     border: none;
     cursor: pointer;
     appearance: none;
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 90%;
     background-color: inherit;
   }
 
